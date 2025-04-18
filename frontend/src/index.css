@@ -4,4 +4,75 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.layout-button{
+  background-color: var(--color-green);
+  border: none;
+  font-size: 1rem;
+  color: var(--color-light-text);
+}
+
+:root {
+  /* Background Colors */
+  --color-dark-blue: #0B1B3F;
+  --color-light-grey: #F4F6F8;
+  --color-white: #ffffff;
+
+  /* Accent Colors */
+  --color-green: #30BA76;
+  --color-green-hover: #27a368;
+  --color-red: #EB4D4B;
+
+  /* Text Colors */
+  --color-heading: #0B1B3F;
+  --color-subtext: #6B7280;
+  --color-light-text: #ffffff;
+
+  /* Card/Box Colors */
+  --color-box-dark: #1B2A4D;
+  --color-box-light: #E3E7EB;
+
+  /* Border Colors */
+  --color-border-light: #D1D5DB;
+  --color-border-dark: #374151;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+  /* Background Colors */
+  --color-dark-blue: #0A182E;
+  --color-light-grey: #1E1E1E;
+  --color-white: #121212;
+
+  /* Accent Colors */
+  --color-green: #2ecc71;
+  --color-green-hover: #27ae60;
+  --color-red: #e74c3c;
+
+  /* Text Colors */
+  --color-heading: #ffffff;
+  --color-subtext: #cbd5e1;
+  --color-light-text: #ffffff;
+
+  /* Card/Box Colors */
+  --color-box-dark: #1f2937;
+  --color-box-light: #2c3e50;
+
+  /* Border Colors */
+  --color-border-light: #4b5563;
+  --color-border-dark: #1f2937;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(255, 255, 255, 0.05);
+  --shadow-md: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-light-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

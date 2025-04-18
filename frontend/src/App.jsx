@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from './component/navbar/Navbar';
+import Home from './pages/home/Home';
+import ThemeProvider from './context/themeContext/ThemeContext';
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-    </div>
+    <ThemeProvider> {/* ✅ Yeh correct provider component hai */}
+    <Home />
+  </ThemeProvider>
   )
 }
 
