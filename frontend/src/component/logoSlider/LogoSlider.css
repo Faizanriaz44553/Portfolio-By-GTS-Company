@@ -1,0 +1,21 @@
+.slider-container {
+    width: 100%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+  }
+  
+  .slider-track {
+    display: flex;
+    gap: 4rem;
+  }
+  .logo-wrapper{
+    flex: 0 0 auto;
+    padding: 10px;
+  }
+  .logo-wrapper-images {
+    height: 50px;
+    object-fit: contain;
+  }
+  
