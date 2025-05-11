@@ -6,7 +6,8 @@ const Home = lazy(() => import("./pages/home/Home"));
 
 const App = () => {
   return (
-    <ThemeProvider>
+    <div>
+      <ThemeProvider>
       <Suspense
         fallback={
           <div className="flex justify-center items-center w-full h-screen">
@@ -18,6 +19,7 @@ const App = () => {
         <Home />
       </Suspense>
     </ThemeProvider>
+    </div>
   );
 };
 

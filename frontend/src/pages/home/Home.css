@@ -1,5 +1,39 @@
+.home-counter-maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+.home-counter-wrapper-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    max-width: 80%;
+}
+.home-counter-para{
+    font-size: 1.5rem;
+    color: var(--color-subtext);
+    transition: 0.3s;
+    text-align: center;
+}
+.home-counter-icon{
+    color: var(--color-heading);
+    font-size: 3rem;
+}
 
 @media (max-width: 600px){
-
+    .home-counter-wrapper-div{
+        padding: 10px;
+    }
+    .home-counter-para{
+        font-size: 1.1rem;
+    }
 }
+
 

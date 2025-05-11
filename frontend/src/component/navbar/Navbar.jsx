@@ -58,9 +58,9 @@ const Navbar = () => {
             }}
           >
             {theme === "light" ? (
-              <MoonFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500 }} />
+              <MoonFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500}} />
             ) : (
-              <SunFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500 }} />
+              <SunFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500}} />
             )}
           </span>
         </div>
@@ -90,9 +90,9 @@ const Navbar = () => {
           }}
         >
           {theme === "light" ? (
-            <MoonFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500 }} />
+            <MoonFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500 ,animation: "popIn 0.5s ease"}} />
           ) : (
-            <SunFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500 }} />
+            <SunFilled style={{ fontSize: `${1.3}rem`, fontWeight: 500 ,animation: "popIn 0.5s ease"}} />
           )}
         </span>
         <Drawer

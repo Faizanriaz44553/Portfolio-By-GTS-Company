@@ -1,0 +1,62 @@
+.clintSection-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    /* padding: 50px; */
+    background: var(--color-white);
+    transition: 0.3s;
+    background-image: radial-gradient(circle at bottom center, rgb(135, 206, 250), #f8ffe9 70%);
+  }
+.clintSection-child-contianer-1{
+    width: 50%;
+    height: auto;
+   padding: 50px;
+}
+.clintSection-child-contianer-2{
+   padding: 30px;
+   width: 50%;
+   height: auto;
+}
+.clintSection-child-contianer-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-dark-text);
+}
+.clintSection-child-contianer-para{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-dark-text);
+    margin-bottom: 20px;
+}
+.clintSection-right-image-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.clintSection-right-main-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px){
+    .clintSection-child-contianer-1{
+        width: 100%;
+    }
+    .clintSection-child-contianer-2{
+        width: 100%;
+    }
+    .clintSection-child-contianer-heading{
+        font-size: 1.8rem;
+    }
+    .clintSection-child-contianer-para{
+        font-size: 1rem;
+    }
+}

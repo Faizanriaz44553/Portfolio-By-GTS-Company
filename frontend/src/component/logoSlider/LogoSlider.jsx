@@ -6,6 +6,10 @@ const logos = [
   "/images/Pakistan-Stock-Exchange-Limited.jpg",
   "/images/BF-Biosciences.jpg",
   "/images/LMKR.jpg",
+  "/images/ORIX-Modaraba.jpg",
+  "/images/Pakistan-Stock-Exchange-Limited.jpg",
+  "/images/BF-Biosciences.jpg",
+  "/images/LMKR.jpg",
   "/images/ORIX-Modaraba.jpg"
 ];
 

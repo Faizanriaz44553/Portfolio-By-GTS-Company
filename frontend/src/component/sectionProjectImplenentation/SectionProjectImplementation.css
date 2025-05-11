@@ -1,0 +1,214 @@
+.section-p-i-main-container{
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.section-p-i-child-container-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--color-heading);
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+}
+.section-p-i-pre-childs-1{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+
+}
+.section-p-i-pre-childs-2{
+    width: 50%;
+    height: auto;
+}
+.section-p-i-video-wapper-main-div-1{
+    margin-top: -150px;
+    border-radius: 10px;
+}
+.section-p-i-video-wapper-main-div-1 iframe{
+    border-radius: 20px;
+    /* width: auto;
+    height: auto; */
+}
+.section-p-i-video-wapper-main-div-2{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    /* padding-right: 20px; */
+}
+ .section-p-i-video-icon{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: var(--color-box-light);
+    transition: 0.3s;
+    /* text-align: end !important; */
+ }
+ .section-p-i-pre-childs-1-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-box-light);
+    margin-bottom: 10px;
+    transition: 0.3s;
+ }
+ .section-p-i-pre-childs-1-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-box-light);
+    margin-bottom: 10px;
+    transition: 0.3s;
+ }
+ .section-p-i-content-pre-child{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--color-heading);
+    margin-top: 20px;
+    padding: 10px;
+ }
+ 
+ .section-p-i-content-animated-contianer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+ }
+
+ /* Section Container */
+.project-implementation-section {
+    padding: 40px 20px;
+    background: #f9fafb;
+  }
+  
+  /* Heading */
+  .project-implementation-heading {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-heading);
+    transition: 0.3s;
+  }
+  
+  /* Step Card */
+  .project-step-card {
+    width: 90%;
+    /* margin-top: 10px !important; */
+    margin: 0 auto;
+    background: var(--color-light-text);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Step Header */
+  .project-step-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  /* Left Side (Icon + Title) */
+  .project-step-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Check Icon */
+  .project-step-icon {
+    font-size: 2rem;
+    color: var(--color-green);
+  }
+  
+  /* Step Title */
+  .project-step-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--color-dark-blue);
+  }
+  
+  /* Arrow Icon */
+  .project-step-arrow {
+    font-size: 2rem;
+    color: var(--color-border-dark);
+  }
+  
+  /* Step Content */
+  .project-step-content {
+    margin-top: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    color: var(--color-subtext) ;
+    font-size: 16px;
+  }
+  
+  /* Open Content */
+  .project-step-content.open {
+    margin-top: 15px;
+    max-height: 200px;
+  }
+  
+  /* Paragraph */
+  .project-step-description {
+    margin-top: 10px;
+  }
+  
+ 
+ @media (max-width: 600px){
+    .section-p-i-main-container{
+        padding: 10px;
+    } 
+    .section-p-i-pre-childs-1{
+        width: 100%;
+        padding: 20px;
+    }
+    .section-p-i-pre-childs-2{
+        width: 100%;
+    }
+    .section-p-i-child-container-1{
+        flex-direction: column-reverse;
+        padding: 25px;
+    }
+    .section-p-i-video-wapper-main-div-1{
+        margin-top: 0;
+    }
+    .section-p-i-pre-childs-1-heading{
+        font-size: 2rem;
+    }
+    .section-p-i-pre-childs-1-para{
+        font-size: 1rem;
+    }
+    .section-p-i-video-icon{
+        font-size: 2rem;
+    }
+    .section-p-i-video-wapper-main-div-1 iframe{
+        width: auto;
+        height: auto;
+    }
+    .project-implementation-heading{
+        font-size: 1.6rem;
+    }
+    .project-step-title{
+        font-size: 1rem;
+    }
+    .project-step-arrow{
+        font-size: 1rem;
+    }
+    .project-step-icon{
+        font-size: 1rem;
+    }
+ }

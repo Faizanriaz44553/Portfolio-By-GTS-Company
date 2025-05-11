@@ -1,0 +1,6 @@
+.NumberCounter-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-heading);
+    transition: 0.3s;
+}
