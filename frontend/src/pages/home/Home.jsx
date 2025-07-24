@@ -4,7 +4,7 @@ import "./Home.css";
 import Header from "../../component/header/Header";
 import ClintSection from "../../component/clintSection/ClintSection";
 import SectionProjectImplementation from "../../component/sectionProjectImplenentation/SectionProjectImplementation";
-import EnvornmentSection from "../../component/EnvornmentSection/EnvornmentSection";
+import EnvornmentSection from "../../component/envornmentSection/EnvornmentSection"
 import Footer from "../../component/footer/Footer";
 import NumberCounter from "../../component/ui/numberCounter/NumberCounter";
 import { GlobalOutlined, ProfileOutlined, TeamOutlined } from "@ant-design/icons";
